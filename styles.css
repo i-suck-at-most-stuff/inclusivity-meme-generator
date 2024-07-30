@@ -51,9 +51,7 @@ body {
   background: linear-gradient(to bottom, #55cdfc, #f7a8b8, #fff, #f7a8b8, #55cdfc);
 }
 
-.italian {
-  background: linear-gradient(to bottom, #008c45, #ffffff, #cd212a);
-}
+
 
 .search-container {
   margin-top: 20px;
@@ -72,6 +70,11 @@ body {
 }
 
 /* Flag styles */
+.italian {
+  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/c4e2ac3e-abc7-4b84-ac5d-c4a4136f08ac.image.png?v=1722375490009') no-repeat center center;
+  background-size: 100% 100%;
+}
+
 .american {
   background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/ce628fd0-4447-4825-a5bd-d5bf1a8ade56.image.png?v=1722373768625') no-repeat center center;
   background-size: 100% 100%;
@@ -83,15 +86,44 @@ body {
 }
 
 .french {
-  background: linear-gradient(to right, #0055a4, #fff, #ef4135);
+  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/e3d53458-7b21-494b-98c6-4facd2ef13d6.image.png?v=1722375543922') no-repeat center center;
+  background-size: 100% 100%;
 }
 
 .brazilian {
-  background: url('brazilian_flag_image_url') no-repeat center center;
+  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/6964eef2-450d-4952-923c-02b2967f750f.image.png?v=1722375324760') no-repeat center center;
   background-size: 100% 100%;
 }
 
 .canadian {
-  background: url('canadian_flag_image_url') no-repeat center center;
+  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/5d96901c-23ea-4db1-be46-290e64015fcc.image.png?v=1722375258660') no-repeat center center;
   background-size: 100% 100%;
 }
+
+.upload-container {
+  margin-top: 20px;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  justify-content: space-between; /* Space out the elements */
+  align-items: center; /* Align items vertically */
+  margin-top: 20px;
+}
+
+.upload-container,
+.flag-selector {
+  display: flex;
+  flex-direction: column; /* Stack label and input/select vertically */
+  align-items: center; /* Center align text and input */
+}
+
+.upload-container label,
+.flag-selector label {
+  margin-bottom: 5px; /* Space between label and input/select */
+}
+.screenshot-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
