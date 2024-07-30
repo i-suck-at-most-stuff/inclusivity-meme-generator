@@ -1,1 +1,0 @@
-# inclusivity-meme-generator
