@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
   <title>Think Before You Speak Hate</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -30,12 +32,13 @@
       </div>
     </div>
     <div class="row">
-      <div class="text">Someone you know is Italian.</div>
-      <div class="flag-container" id="replaceable-flag-container">
-        <div class="flag italian" id="replaceable-flag"></div>
-        <img src="path_to_placeholder_image" alt="Character" class="character" id="italian-character">
-      </div>
-    </div>
+  <div class="text flag-text" id="flag-text">Someone you know is Italian.</div>
+  <div class="flag-container" id="replaceable-flag-container">
+    <div class="flag italian" id="replaceable-flag"></div>
+    <img src="path_to_placeholder_image" alt="Character" class="character" id="italian-character">
+  </div>
+</div>
+
     <div class="row">
       <div class="text">Maybe even someone you love.</div>
     </div>
@@ -44,10 +47,10 @@
     </div>
   </div>
 
-  <div class="search-container">
-    <label for="search-person">Search for a person:</label>
-    <input type="text" id="search-person" placeholder="Enter name">
-    <button id="search-button">Search</button>
+<div class="input-container">
+  <div class="upload-container">
+    <label for="upload-file">Upload a photo:</label>
+    <input type="file" id="upload-file" accept="image/*">
   </div>
 
   <div class="flag-selector">
@@ -61,6 +64,9 @@
       <option value="canadian">Canadian</option>
     </select>
   </div>
+</div>
+
+
 
   <script src="script.js"></script>
 </body>
