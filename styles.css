@@ -26,10 +26,8 @@ body {
 .flag-container {
   position: relative;
   width: 100%;
-  height: 90px; 
+  height: 90px;
 }
-
-
 
 .character {
   width: 150px; /* Size of the character image */
@@ -40,7 +38,15 @@ body {
 }
 
 .gay {
-  background: linear-gradient(to bottom, #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787);
+  background: linear-gradient(
+    to bottom,
+    #e40303,
+    #ff8c00,
+    #ffed00,
+    #008026,
+    #004dff,
+    #750787
+  );
 }
 
 .bi {
@@ -48,10 +54,15 @@ body {
 }
 
 .transgender {
-  background: linear-gradient(to bottom, #55cdfc, #f7a8b8, #fff, #f7a8b8, #55cdfc);
+  background: linear-gradient(
+    to bottom,
+    #55cdfc,
+    #f7a8b8,
+    #fff,
+    #f7a8b8,
+    #55cdfc
+  );
 }
-
-
 
 .search-container {
   margin-top: 20px;
@@ -71,32 +82,38 @@ body {
 
 /* Flag styles */
 .italian {
-  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/c4e2ac3e-abc7-4b84-ac5d-c4a4136f08ac.image.png?v=1722375490009') no-repeat center center;
+  background: url("https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/c4e2ac3e-abc7-4b84-ac5d-c4a4136f08ac.image.png?v=1722375490009")
+    no-repeat center center;
   background-size: 100% 100%;
 }
 
 .american {
-  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/ce628fd0-4447-4825-a5bd-d5bf1a8ade56.image.png?v=1722373768625') no-repeat center center;
+  background: url("https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/ce628fd0-4447-4825-a5bd-d5bf1a8ade56.image.png?v=1722373768625")
+    no-repeat center center;
   background-size: 100% 100%;
 }
 
 .british {
-  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/0ca679cd-575f-4819-b449-6366dd0f16d1.image.png?v=1722374245166') no-repeat center center;
+  background: url("https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/0ca679cd-575f-4819-b449-6366dd0f16d1.image.png?v=1722374245166")
+    no-repeat center center;
   background-size: 100% 100%;
 }
 
 .french {
-  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/e3d53458-7b21-494b-98c6-4facd2ef13d6.image.png?v=1722375543922') no-repeat center center;
+  background: url("https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/e3d53458-7b21-494b-98c6-4facd2ef13d6.image.png?v=1722375543922")
+    no-repeat center center;
   background-size: 100% 100%;
 }
 
 .brazilian {
-  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/6964eef2-450d-4952-923c-02b2967f750f.image.png?v=1722375324760') no-repeat center center;
+  background: url("https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/6964eef2-450d-4952-923c-02b2967f750f.image.png?v=1722375324760")
+    no-repeat center center;
   background-size: 100% 100%;
 }
 
 .canadian {
-  background: url('https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/5d96901c-23ea-4db1-be46-290e64015fcc.image.png?v=1722375258660') no-repeat center center;
+  background: url("https://cdn.glitch.global/e7803c01-ddd6-4ca0-8cee-0c37ac9a2135/5d96901c-23ea-4db1-be46-290e64015fcc.image.png?v=1722375258660")
+    no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -120,10 +137,19 @@ body {
 
 .upload-container label,
 .flag-selector label {
-  margin-bottom: 5px; /* Space between label and input/select */
+  margin-bottom: 5px;
 }
 .screenshot-container {
   margin-top: 20px;
   text-align: center;
 }
-
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.8em;
+  border-top: 1px solid #444;
+}
